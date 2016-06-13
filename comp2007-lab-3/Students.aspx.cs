@@ -48,7 +48,14 @@ namespace comp2007_lab_3
                 StudentsGridView.DataBind();
             }
         }
-
+        /**
+         * <summary>
+         * This method gets the student data from the DB
+         * </summary>
+         * 
+         * @method GetStudents
+         * @returns {void}
+         */
         protected void StudentsGridView_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
             // store which row was clicked
